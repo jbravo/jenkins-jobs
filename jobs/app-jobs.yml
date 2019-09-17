@@ -382,6 +382,13 @@
       - 'openresty-template'
 
 - project:
+    name: ert-api
+    description-intro: Builds & deploys the ERT API docker image.
+    email-recipients: mike.albert@cru.org
+    jobs:
+      - 'generic-template'
+
+- project:
     name: wsapi
     description-intro: Builds, tests, & deploys the WSAPI docker image.
     email-recipients: matt.drees@cru.org, bill.randall@cru.org
