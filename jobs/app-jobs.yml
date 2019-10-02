@@ -380,6 +380,13 @@
     jobs:
       - 'generic-template'
 
+- project:
+    name: etimesheet
+    description-intro: Builds, tests, & deploys the etimesheet docker image.
+    email-recipients: matt.drees@cru.org, bill.randall@cru.org
+    jobs:
+      - 'generic-template'
+
 - job-group:
     name: 'openresty-template'
     jobs:
